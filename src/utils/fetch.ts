@@ -44,7 +44,7 @@ export function fakeFetch<TData, TParams extends object = object>(
 
         case "transactionsByEmployee":
           result = getTransactionsByEmployee(params as RequestByEmployeeParams) as unknown as TData
-          console.log("transactionByEmp",result);
+          // console.log("transactionByEmp",result);
           setTimeout(() => {
             mockApiLogger({ data: { endpoint, params, result } })
             resolve(result)
@@ -52,7 +52,7 @@ export function fakeFetch<TData, TParams extends object = object>(
           break
 
         case "setTransactionApproval":
-          console.log("fetch:",params);
+          // console.log("fetch:",params);
           result = setTransactionApproval(params as SetTransactionApprovalParams) as unknown as TData
 
           setTimeout(() => {

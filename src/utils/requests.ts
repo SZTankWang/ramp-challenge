@@ -20,6 +20,7 @@ export const getEmployees = (): Employee[] => data.employees
 export const getTransactionsPaginated = ({
   page,
 }: PaginatedRequestParams): PaginatedResponse<Transaction[]> => {
+  console.log("original request is fired");
   if (page === null) {
     throw new Error("Page cannot be null")
   }
