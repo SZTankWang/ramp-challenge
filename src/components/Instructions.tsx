@@ -13,11 +13,18 @@ export function Instructions() {
         transactions by employee.
       </p>
     <p className="RampText">
-      Task done:
-        - got the checkbox worked
-        - enabled going back to all-employee view from single-employee views
+        Task done:
+    </p>
+    <p>
+      - got the checkbox worked
+      
 
     </p>
+    <p>
+    - enabled going back to all-employee view from single-employee views
+    </p>
+      
+    
       
     </Fragment>
   )
