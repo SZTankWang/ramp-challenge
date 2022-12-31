@@ -11,10 +11,13 @@ export function Instructions() {
         <span className="RampBreak--s" />
         Select the checkbox on the right to approve or decline the transactions. You can filter
         transactions by employee.
-        #Task completed:
-        - got the checkbox work
-        - enable going back to all-employee view from a single-employee view
+        <span className="RampBreak--s" />
+        Task done:
+        - got the checkbox worked
+        - enabled going back to all-employee view from single-employee views
       </p>
+
+      
     </Fragment>
   )
 }
